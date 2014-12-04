@@ -1,0 +1,176 @@
+body{
+    background-color: #1E1E1E;
+}
+
+#header{
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+h1{
+    color: #fafafa;
+    font-family: "massey";
+    font-size: 28px;
+}
+
+h2{
+    color: #fafafa;
+    font-family: "massey";
+    font-size: 24px;
+}
+
+h3 {
+    color: #fafafa;
+    font-family: "massey";
+    font-size: 20px;
+}
+
+h4{
+    color: #fafafa;
+    font-family: massey;
+    font-size: 20px;
+}
+
+h5{
+    font-family: massey;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+ol{
+    color: #fafafa;
+    list-style: square;
+    font-size: 16px;
+    font-family: helvetica;
+    margin-bottom: 25px;
+}
+
+p{
+    color: #fafafa;
+    font-family: helvetica;
+    font-size: 16px;
+}
+
+.carousel-caption{
+    width: 500px;
+    height: 24px;
+   /*--background-color: #ff6600;--*/
+    font-family: massey;
+    font-size: 20px;
+    font-color: #1e1e1e;
+    padding-bottom: 5px;
+}
+
+#categories{
+    font-family: massey;
+    font-size: 20px;
+    font-color: #1e76ee
+    position: center;
+}
+
+#vert-line {
+    width: 2px;
+    height: 1000px;
+    background-color: #2e2e2e;
+}
+
+#vert-line2{
+    width: 2px;
+    height: 1750px;
+    background-color: #2e2e2e;
+}
+
+#vert-line3{
+    width: 2px;
+    height: 1000px;
+    background-color: #2e2e2e;
+}
+
+#vert-line4{
+    width: 2px;
+    height: 1300px;
+    background-color: #2e2e2e;
+}
+
+#vert-line5{
+    width: 2px;
+    height: 1250px;
+    background-color: #2e2e2e;
+}
+
+#vert-line6{
+    width: 2px;
+    height: 850px;
+    background-color: #2e2e2e;
+}
+
+#vert-line7{
+    width: 2px;
+    height: 1405px;
+    background-color: #2e2e2e;
+}
+
+#vert-line8{
+    width: 2px;
+    height: 1125px;
+    background-color: #2e2e2e;
+}
+
+#hor-line{
+    height: 2px;
+    background-color: #2e2e2e;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#nav{
+    line-height: 30px;
+    height: 1500px;
+    width: 150px;
+    float: left;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    float: left;
+}
+
+a:active{
+    font-color: #ff6600;
+}
+
+#contact{
+    font-color: #fafafa;
+}
+
+form{
+    font-color: #fafafa;
+    font-size: 16px;
+}
+
+#section{
+    width: 600px;
+    height: 300px;
+    padding-bottom: 100px;
+}
+
+#special-box{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    float: left;
+}
+
+#monthly-box{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    float: left;
+}
+
+#footer{
+    padding-top: 200px;
+}
+
