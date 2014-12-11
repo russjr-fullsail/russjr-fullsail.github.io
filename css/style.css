@@ -53,6 +53,12 @@ p{
     font-size: 16px;
 }
 
+p1{
+    color: #fafafa;
+    font-family: helvetica;
+    font-size: 12px;
+}
+
 .carousel-caption{
     width: 500px;
     height: 24px;
@@ -114,7 +120,7 @@ p{
 
 #vert-line8{
     width: 2px;
-    height: 1125px;
+    height: 2000px;
     background-color: #2e2e2e;
 }
 
