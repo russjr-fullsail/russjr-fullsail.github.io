@@ -120,7 +120,13 @@ p1{
 
 #vert-line8{
     width: 2px;
-    height: 2000px;
+    height: 2700px;
+    background-color: #2e2e2e;
+}
+
+#vert-line9{
+    width: 2px;
+    height: 3000px;
     background-color: #2e2e2e;
 }
 
