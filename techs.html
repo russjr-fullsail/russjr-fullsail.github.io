@@ -16,7 +16,50 @@
     </div>
 </div>
 <div class="col-lg-4">
-    <a href="log-in">Log-In</a>
+    <a id="modal_trigger" href="#modal" class="btn">Log-In</a>
+    <div id="modal" class="popupContainer" style="display:none;">
+        <header class="popupHeader">
+            <span class="header_title">Login</span>
+            <span class="modal_close"><i class="fa fa-times"></i></span>
+        </header>
+        <section class="popupBody">
+            <div class="user_login">
+                <form>
+                    <label>Username</label><input type="text"></br>
+                    <label>Password</label><input type="password"></br>
+
+                    <div class="checkbox">
+                        <input id="remember" type="checkbox"><label for="remember">Remeber Me</label>
+                    </div>
+
+                    <div class="action_btns">
+                        <div class="one_half">
+                            <a class="btn back_btn" href="#">Back</a>
+                        </div>
+
+                        <div class="one_half last">
+                            <a class="btn btn_red" href="#">Login</a>
+                        </div>
+                    </div>
+                </form>
+                <a class="forgot_password" href="#">Forgot Password</a>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+    $(function(){
+        // Calling Login Form
+        $("#login_form").click(function(){
+            $(".social_login").hide();
+            $(".user_login").show();
+            return false;
+        });
+
+    })
+</script>
 </div>
 <div id="nav">
 
