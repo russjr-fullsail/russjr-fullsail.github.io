@@ -61,10 +61,10 @@ p1{
 
 .carousel-caption{
     width: 500px;
-    height: 24px;
+    height: 30px;
     /*--background-color: #ff6600;--*/
     font-family: massey;
-    font-size: 20px;
+    font-size: 24px;
     color: #ff6600;
     padding-bottom: 10px;
 }
